@@ -1,0 +1,45 @@
+📘 DATASET SUMMARY:
+
+DLPRB:
+  Shape: (840, 2881)
+  Null values: 0
+  Sample columns: ['Unnamed: 0', '0_0_0', '0_0_1', '0_0_2', '0_0_3', '0_0_4', '0_0_5', '0_0_6', '0_0_7', '0_0_8']
+  Dtypes: {'Unnamed: 0': dtype('int64'), '0_0_0': dtype('float64'), '0_0_1': dtype('float64'), '0_0_2': dtype('float64'), '0_0_3': dtype('float64')}
+
+DLThpVol:
+  Shape: (840, 2881)
+  Null values: 0
+  Sample columns: ['Unnamed: 0', '0_0_0', '0_0_1', '0_0_2', '0_0_3', '0_0_4', '0_0_5', '0_0_6', '0_0_7', '0_0_8']
+  Dtypes: {'Unnamed: 0': dtype('int64'), '0_0_0': dtype('float64'), '0_0_1': dtype('float64'), '0_0_2': dtype('float64'), '0_0_3': dtype('float64')}
+
+DLThpTime:
+  Shape: (840, 2881)
+  Null values: 0
+  Sample columns: ['Unnamed: 0', '0_0_0', '0_0_1', '0_0_2', '0_0_3', '0_0_4', '0_0_5', '0_0_6', '0_0_7', '0_0_8']
+  Dtypes: {'Unnamed: 0': dtype('int64'), '0_0_0': dtype('float64'), '0_0_1': dtype('float64'), '0_0_2': dtype('float64'), '0_0_3': dtype('float64')}
+
+MR_number:
+  Shape: (840, 2881)
+  Null values: 0
+  Sample columns: ['Unnamed: 0', '0_0_0', '0_0_1', '0_0_2', '0_0_3', '0_0_4', '0_0_5', '0_0_6', '0_0_7', '0_0_8']
+  Dtypes: {'Unnamed: 0': dtype('int64'), '0_0_0': dtype('float64'), '0_0_1': dtype('float64'), '0_0_2': dtype('float64'), '0_0_3': dtype('float64')}
+
+SampleSubmission:
+  Shape: (967680, 2)
+  Null values: 0
+  Sample columns: ['ID', 'Target']
+  Dtypes: {'ID': dtype('O'), 'Target': dtype('int64')}
+❌ Failed to load scenarioA_nn_best.h5: Could not locate function 'mae'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mae', 'registered_name': 'mae'}
+❌ Failed to load scenarioA_nn_model.h5: Could not locate function 'mae'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mae', 'registered_name': 'mae'}
+❌ Failed to load scenarioB_nn_best.h5: Could not locate function 'mae'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mae', 'registered_name': 'mae'}
+❌ Failed to load scenarioB_nn_model.h5: Could not locate function 'mae'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mae', 'registered_name': 'mae'}
+✅ Loaded META: scenarioA_meta.pkl
+✅ Loaded META: scenarioB_meta.pkl
+
+✅ Loaded scenarioA_xgb_models.joblib (contains 2880 entries)
+🧠 Valid XGB models: ['0_0_0', '0_0_1', '0_0_2', '0_0_3', '0_0_4', '0_0_5', '0_0_6', '0_0_7', '0_0_8', '0_0_9'] ...
+
+✅ Loaded scenarioB_xgb_models.joblib (contains 2880 entries)
+🧠 Valid XGB models: ['0_0_0', '0_0_1', '0_0_2', '0_0_3', '0_0_4', '0_0_5', '0_0_6', '0_0_7', '0_0_8', '0_0_9'] ...
+
+✅ All loading and inspection steps complete.
