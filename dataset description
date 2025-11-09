@@ -29,10 +29,6 @@ SampleSubmission:
   Null values: 0
   Sample columns: ['ID', 'Target']
   Dtypes: {'ID': dtype('O'), 'Target': dtype('int64')}
-❌ Failed to load scenarioA_nn_best.h5: Could not locate function 'mae'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mae', 'registered_name': 'mae'}
-❌ Failed to load scenarioA_nn_model.h5: Could not locate function 'mae'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mae', 'registered_name': 'mae'}
-❌ Failed to load scenarioB_nn_best.h5: Could not locate function 'mae'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mae', 'registered_name': 'mae'}
-❌ Failed to load scenarioB_nn_model.h5: Could not locate function 'mae'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mae', 'registered_name': 'mae'}
 ✅ Loaded META: scenarioA_meta.pkl
 ✅ Loaded META: scenarioB_meta.pkl
 
