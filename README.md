@@ -192,14 +192,13 @@ ITU AI/ML in 5G Challenge for the dataset and problem statement.
 
 Kaggle community for open-source ideas on hybrid architectures.
 
+Nokia Mentors for guiding us in completing this project
+
 👨‍💻 Author
 
-Auchitya Jain
+Auchitya Jain,Harshitha MP,Shashank Kamath
 Electronics & Communication Engineering
 Nitte Meenakshi Institute of Technology
-📧 [auchityajain@example.com
-]
-🔗 LinkedIn
 
 <img width="916" height="961" alt="image" src="https://github.com/user-attachments/assets/ef778d04-d6eb-4a66-80e8-0256dd210aaa" />
 | **Feature / Section**   | **Original Version**                   | **Improved Final Version**                                         |
