@@ -1,6 +1,6 @@
 🛰️ Spatio-Temporal Beam-Level Traffic Forecasting Solution
 
-Author: Auchitya Jain,Harshitha MP,Shashank Kamath
+Author: Auchitya Jain,Harshitha M P,Shashank Kamath
 Institution: Nitte Meenakshi Institute of Technology
 Language: Python
 Frameworks: TensorFlow, XGBoost, Scikit-learn, Pandas, NumPy, Matplotlib
@@ -196,26 +196,8 @@ Nokia Mentors for guiding us in completing this project
 
 👨‍💻 Author
 
-Auchitya Jain,Harshitha MP,Shashank Kamath
+Auchitya Jain,Harshitha M P,Shashank Kamath
 Electronics & Communication Engineering
 Nitte Meenakshi Institute of Technology
 
 <img width="916" height="961" alt="image" src="https://github.com/user-attachments/assets/ef778d04-d6eb-4a66-80e8-0256dd210aaa" />
-| **Feature / Section**   | **Original Version**                   | **Improved Final Version**                                         |
-| ----------------------- | -------------------------------------- | ------------------------------------------------------------------ |
-| **Data Handling**       | Static CSV paths, prone to failure     | Dual fallback (Kaggle/local), safe loading with exceptions         |
-| **EDA**                 | Minimal line plots                     | Full decomposition, rolling analysis, ADF test, congestion mapping |
-| **Feature Engineering** | Basic lag features only                | Lag + rolling + cyclic time + congestion + contextual flags        |
-| **Scaling & Splitting** | Single split without validation safety | Robust scaling, safe fallback, sequential split                    |
-| **Deep Learning Model** | Simple LSTM                            | CNN–BiLSTM–GRU–Attention hybrid with L1/L2 regularization          |
-| **Callbacks**           | None                                   | EarlyStopping and ReduceLROnPlateau for adaptive training          |
-| **XGBoost Integration** | Missing or basic                       | Full-featured XGBoost with GPU/CPU fallback                        |
-| **Meta-Model**          | None                                   | Ridge regression-based stacked blending                            |
-| **Error Handling**      | Minimal                                | Extensive try–except blocks across all pipeline stages             |
-| **Evaluation**          | Single model MAE                       | Comparative MAE for NN, XGB, and blended model                     |
-| **Output**              | Basic print                            | Formatted metrics, saved models, CSV submission                    |
-| **Portability**         | Kaggle-only                            | Works seamlessly on both Kaggle and local systems                  |
-| **Reproducibility**     | Not saved                              | Saves `.keras`, `.pkl`, and `.csv` artifacts                       |
-| **Scalability**         | Single-core assumption                 | Multi-core, GPU-aware, and modularized blocks                      |
-
-
