@@ -1,0 +1,57 @@
+START
+
+1. LOAD DATA
+   - Traffic Volume (TY)
+   - PRB Utilization
+   - Metadata + Feature list
+
+2. EDA
+   - Plot distribution of traffic
+   - Plot 1 beam time-series
+
+3. FEATURE ENGINEERING
+   - Time features (sin, cos, peak, weekend, night)
+   - Lag features (1, 6, 12, 24, 168)
+   - Rolling mean & std
+   - PRB congestion interaction
+
+4. SPLIT DATA
+   - X → Features
+   - y → Beam traffic
+   - 80% Train / 20% Validation
+
+5. Train XGboost,NN,Meta and scaler
+
+6. LOAD MODELS
+   - Neural Network
+   - XGBoost
+   - Meta Model
+   - Scaler
+
+7. BASE PREDICTIONS
+   - NN_pred  = NN(X_val)
+   - XGB_pred = XGB(X_val)
+   - BASE_BLEND = 0.5*NN + 0.5*XGB
+   - Plot Actual vs BASE_BLEND
+
+8. GNN TRAINING
+   - Build Graph from samples
+   - GCN → ReLU → GCN
+   - Train (10 epochs)
+   - GNN_pred = model output
+
+9. OPTIMAL BLENDING
+   FOR w0,w1,w2 where sum=1:
+      FINAL = w0*NN + w1*XGB + w2*GNN
+      Compute MAE
+      Store best weights
+
+10. FINAL OUTPUT
+   - Plot Actual vs FINAL_BLEND
+   - Show Best MAE + Weights
+
+11. EXPLAINABILITY
+   - Apply LIME for NN
+   - Apply LIME for XGB
+
+END
